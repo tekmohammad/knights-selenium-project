@@ -1,0 +1,9 @@
+#btnSubmit {
+    background-color: black;
+    color: white
+}
+
+.firstNameInput {
+    min-height: 40px;
+    max-height: 40px;
+}
