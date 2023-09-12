@@ -24,7 +24,7 @@ public class LoginButtonEnabled {
             System.out.println("Button is enabled");
         }
 
-        driver.findElement(By.name("username")).sendKeys("Username");
+        driver.findElement(By.name("userName")).sendKeys("Username");
         driver.findElement(By.name("password")).sendKeys("password");
 
         boolean isEnabled = driver.findElement(By.id("loginButton")).isEnabled();
